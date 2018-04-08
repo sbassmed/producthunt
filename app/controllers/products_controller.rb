@@ -25,8 +25,8 @@ class ProductsController < ApplicationController
       redirect_to products_path, notice: "El producto ha sido modificado con éxito"
     else
       render :edit
+    end
   end
-end
 end
 
 private
